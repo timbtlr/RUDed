@@ -1,7 +1,5 @@
 import os 
 
-print(os.environ.get("REDIS_PORT"))
-
 DEBUG = True
 REDIS_HOSTNAME = os.environ.get("REDIS_HOSTNAME")
 REDIS_PASSWORD = os.environ.get("REDIS_PASSWORD")
