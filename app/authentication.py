@@ -14,7 +14,6 @@ def failed_auth():
 def requires_auth(f):
     @wraps(f)
     def decorated(*args, **kwargs):
-        print(API_KEY)
         auth = request.headers.get('authorization')
         if not auth or auth != API_KEY:
             return failed_auth()
