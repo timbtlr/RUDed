@@ -1,5 +1,7 @@
 # R U Ded?
 
+Ping URLs and verify expected status codes.
+
 ### Overview
 
 Send POST requests to a simple Flask application with the following data:
