@@ -20,4 +20,4 @@ def index():
 
 	redis_db.set(data.get("url"), data.get("expected_status"))
 
-	return make_response(("Added key/value pair", 400))
+	return make_response(("Added key/value pair", 201))
