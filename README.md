@@ -6,7 +6,7 @@ Send POST requests to a simple Flask application with the following data:
 
 ```
 {
-	"url": "http://hello.com"
+	"url": "http://hello.com",
 	"expected_status": 400
 }
 ```
@@ -19,7 +19,7 @@ a bad response metric will be sent to DataDog.
 
 ### Required Variables
 
-REDIS_HOSTNAME - Hostname of the Redis database
-REDIS_PASSWORD - Password to the Redis database
-REDIS_PORT - Port to the Redis database
-API_KEY - API key used to interact with this application
+- REDIS_HOSTNAME - Hostname of the Redis database
+- REDIS_PASSWORD - Password to the Redis database
+- REDIS_PORT - Port to the Redis database
+- API_KEY - API key used to interact with this application
